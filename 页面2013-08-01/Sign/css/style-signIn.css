@@ -1,0 +1,21 @@
+/* #container */
+#container {
+	font-family: "Microsoft YaHei";
+}
+#container input {
+	font-family: "Microsoft YaHei";
+}
+#container button {
+	font-family: "Microsoft YaHei";
+}
+
+/* #container form */
+.form-horizontal .control-label-normal {
+	float: left;
+	width: 160px;
+	padding-top: 5px;
+	text-align: right;
+}
+.control-group-last {
+	margin-bottom: 0px;
+}

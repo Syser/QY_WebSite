@@ -1,0 +1,81 @@
+li {
+	list-style: none;
+}
+a:link {
+	text-decoration: none;
+}
+/* #header */
+#header {
+	font-family: "Microsoft YaHei";
+}
+.top_navigation_portrait {
+	width: 40px;
+}
+
+/* #container */
+#container {
+	font-family: "Microsoft YaHei";
+	margin-top: 41px;
+}
+
+/* #container .container-left */
+.container-left {
+	width: 205px;
+	height: 100%;
+	position: absolute;
+}
+.mynav-list {
+	margin: 30px 0 0 20px;
+	padding: 0;
+	background-color: #FFF;
+	width: 200px;
+}
+.mynav-list li {
+	line-height: 20px;
+}
+.mynav-list>li>a {
+	margin: 0 0 -1px;
+	border: 1px solid #E5E5E5;
+	padding: 8px 14px;
+	display: block;
+}
+.mynav-list>.active>a {
+	border: 0px;
+}
+.mynav-list .icon-chevron-right {
+	float: right;
+	margin-top: 2px;
+	margin-right: -6px;
+	opacity: .25;
+}
+.mynav-list .active .icon-chevron-right {
+	opacity: 1;
+}
+.mynav-list span {
+	color: #EB5959;
+}
+
+/* #container .container-left .mynav-list .li-options */
+.li-options .select-options {
+	margin-left: 10px;
+}
+.li-options {
+	margin-top: 10px;
+}
+.li-options .itemCount {
+	float: right;
+	margin-right: 10px;
+	color: #887F7F;
+}
+.li-options a {
+	margin-left: 10px;
+}
+
+/* #container .container-right */
+.container-right {
+	border-left: 3px solid #EEE;
+	padding-top: 30px;
+	margin-left: 280px;
+	padding-left: 50px;
+	height: 1360px;
+}
